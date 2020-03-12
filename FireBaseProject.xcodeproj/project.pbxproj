@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F54CFF22419D00300FFE397 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1F54CFF12419D00300FFE397 /* GoogleService-Info.plist */; };
 		2AA91E9F163275711D55DC5E /* Pods_FireBaseProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B57701788B4D9DABAD8D5C36 /* Pods_FireBaseProject.framework */; };
 		6240B16B23B8F6AA006B4B5C /* FirebaseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6240B16A23B8F6AA006B4B5C /* FirebaseData.swift */; };
 		6240B16D23B8F705006B4B5C /* ThreadDataType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6240B16C23B8F705006B4B5C /* ThreadDataType.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F54CFF12419D00300FFE397 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		6240B16A23B8F6AA006B4B5C /* FirebaseData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseData.swift; sourceTree = "<group>"; };
 		6240B16C23B8F705006B4B5C /* ThreadDataType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadDataType.swift; sourceTree = "<group>"; };
 		62B6A49523B03B48001C1FFE /* FireBaseProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FireBaseProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -87,6 +89,7 @@
 		62B6A49723B03B48001C1FFE /* FireBaseProject */ = {
 			isa = PBXGroup;
 			children = (
+				1F54CFF12419D00300FFE397 /* GoogleService-Info.plist */,
 				62B6A49823B03B48001C1FFE /* AppDelegate.swift */,
 				62B6A49A23B03B48001C1FFE /* SceneDelegate.swift */,
 				6240B16923B8F696006B4B5C /* Models */,
@@ -178,6 +181,7 @@
 			files = (
 				62B6A4A523B03B4C001C1FFE /* LaunchScreen.storyboard in Resources */,
 				62B6A4AD23B03B7E001C1FFE /* GoogleService-Info.plist in Resources */,
+				1F54CFF22419D00300FFE397 /* GoogleService-Info.plist in Resources */,
 				62B6A4A223B03B4C001C1FFE /* Preview Assets.xcassets in Resources */,
 				62B6A49F23B03B4C001C1FFE /* Assets.xcassets in Resources */,
 			);
